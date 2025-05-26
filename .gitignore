@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Firebase service account key 
+**/todolistapp-688e4-firebase-adminsdk-*.json
+
+# Environment files 
+**/.env
+**/.env*.local
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native mobile dev
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# VS Code settings
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Firebase emulator logs
+firebase-debug.log
+firestore-debug.log
